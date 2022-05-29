@@ -1,0 +1,75 @@
+.header {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  color: blue;
+  background-color: rgb(221, 204, 237);
+}
+
+.header2 {
+  color: rgb(51, 16, 133);
+  background-color: rgb(98, 167, 185);
+}
+
+.header3 {
+  color: rgb(107, 118, 220);
+}
+
+.header4 {
+  color: rgb(11, 83, 6);
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(10, 169, 57);
+  height: 80px;
+  margin-top: 0;
+}
+
+.nav > li {
+  color: rgb(205, 132, 214);
+}
+
+.nav > li:hover {
+  color: rgb(4, 76, 69);
+}
+
+/* ----------------------- */
+
+.productContainer {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.products {
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(173, 0, 0);
+}
+
+.productDesc {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.add {
+  padding: 5px;
+  background-color: rgb(206, 189, 163);
+  color: rgb(2, 108, 41);
+  font-weight: 900;
+}
+
+.remove {
+  background-color: rgb(217, 24, 24);
+  color: white;
+}
